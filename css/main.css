@@ -4291,7 +4291,7 @@ blockquote {
 }
 
 .padding-10.border-y.background-coral {
-  background-color: #f9473f;
+  background-color: red;
 }
 
 .margin-10vh {
@@ -6268,7 +6268,7 @@ blockquote {
 
 .starting_at {
   font-family: Montserrat, sans-serif;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 600;
   letter-spacing: 1px;
 }
@@ -17175,7 +17175,7 @@ blockquote {
   .padding-10.border-y.background-coral {
     padding-top: 5px;
     padding-bottom: 5px;
-    background-color: #fff;
+    background-color: red;
   }
 
   .scs-text {
@@ -22634,7 +22634,10 @@ h1 {
 
 .navbar-btn {
   font-size: 21px;
-  background: transparent;
+  background: #e0e0e0;
+  color: red;
+  padding: 10px;
+  border-radius: 10px;
   color: red;
 }
 
@@ -22687,4 +22690,8 @@ h1 {
   #ourTeam {
     margin-top: 43rem;
   }
+}
+
+.starting_at a {
+  color: black;
 }
